@@ -1,0 +1,7 @@
+{
+  "name": "Wawa",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
