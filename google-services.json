@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1092697057350",
+    "project_id": "app-wawa",
+    "storage_bucket": "app-wawa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1092697057350:android:ea8f52d26ea39c9af48247",
+        "android_client_info": {
+          "package_name": "com.cjsz.wawa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1092697057350-2l4ef6q3258o5o5flbmsnkctd9sns568.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByfrCIPT5ho-E8HSFTmSDjho3vMLjkQRI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1092697057350-2l4ef6q3258o5o5flbmsnkctd9sns568.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

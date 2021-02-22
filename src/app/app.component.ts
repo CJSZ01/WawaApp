@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { FirebaseX } from '@ionic-native/firebase-x/ngx';
+import { Platform } from '@ionic/angular';
 @Component({
   selector: 'app-root',
   templateUrl: 'app.component.html',
@@ -11,5 +13,8 @@ export class AppComponent {
     { title: 'Profile Picture Perils', url: '/folder/Home', icon: 'person-circle' },
     { title: 'Alliteration Archive', url: '/folder/Home', icon: 'folder-open' },
   ];
-  constructor() {}
+  constructor(private firebaseX: FirebaseX, platform: Platform) {
+
+  }
+
 }
