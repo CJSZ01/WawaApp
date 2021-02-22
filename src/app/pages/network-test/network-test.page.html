@@ -14,14 +14,21 @@
         <b>
       <u>
         <span style="color: blueviolet; font-size: large"
-          >{{currentNetwork}}</span
-        ></u></b>
+          >{{currentNetwork}}</span></u></b>
         <ion-item-divider></ion-item-divider>
 
         <p (click)="toggleSaved()">Saved Networks - <b>  <span *ngIf="!showSaved;else Hide"> Show  </span> <ng-template #Hide> Hide </ng-template> </b>
         </p>
         <ion-list *ngIf="showSaved">
             <ion-item *ngFor="let n of savedNetworks"> {{n}} </ion-item>
+        </ion-list>
+        <ion-item-divider></ion-item-divider>
+
+        <p (click)="scanNetworks()">Availabe Networks - <b>  <span *ngIf="!showAvailable;else Hide"> Show  </span> <ng-template #Hide> Hide </ng-template> </b>
+            <ion-spinner *ngIf="scanning"></ion-spinner>
+        </p>
+        <ion-list *ngIf="showAvailable">
+            <ion-item *ngFor="let n of availableNetworks"> {{n.SSID}} | {{n.frequency}} </ion-item>
         </ion-list>
         <ion-item-divider></ion-item-divider>
 
