@@ -10,7 +10,7 @@ export class AppComponent {
   public appPages = [
     { title: 'Network Nitpicks', url: 'network-test', icon: 'globe' },
     { title: 'Firebase Follies', url: '/folder/Home', icon: 'flame' },
-    { title: 'Profile Picture Perils', url: '/folder/Home', icon: 'person-circle' },
+    { title: 'Profile Picture Perils', url: 'profile-picture', icon: 'person-circle' },
     { title: 'Alliteration Archive', url: '/folder/Home', icon: 'folder-open' },
   ];
   constructor(private firebaseX: FirebaseX, platform: Platform) {

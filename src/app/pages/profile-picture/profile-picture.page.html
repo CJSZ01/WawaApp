@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Profile Picture Perils</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button text="" defaultHref="/folder/Home" icon="arrow-back-circle-outline"></ion-back-button>
+  </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="centered" style="display: flex; flex-direction: column; align-items: center">
+    <img style="border-radius:100%; transform: scale(0.8);" src="{{imgSrc}}">
+    <ion-button (click)="openGallery()"> </ion-button>
+  </div>
+</ion-content>

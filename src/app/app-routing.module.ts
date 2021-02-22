@@ -23,7 +23,12 @@ const routes: Routes = [
   {
     path: 'network-test',
     loadChildren: () => import('./pages/network-test/network-test.module').then( m => m.NetworkTestPageModule)
+  },
+  {
+    path: 'profile-picture',
+    loadChildren: () => import('./pages/profile-picture/profile-picture.module').then( m => m.ProfilePicturePageModule)
   }
+
 ];
 
 @NgModule({
